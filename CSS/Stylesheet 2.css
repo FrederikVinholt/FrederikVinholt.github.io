@@ -1,0 +1,178 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(112, 109, 109, 0.904);
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid rgb(255, 255, 255);
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 40px 40px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+/* De 4 billeder ved siden af hinanden */
+
+  .column {
+    float: left;
+    width: 23%;
+    padding: 12px;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 10px;
+  }
+
+
+
+header
+{
+  font-size: 355px;
+  margin-top: 40px;
+ 
+}
+
+  h1{
+   margin-top: 40px;
+    text-align: center;
+    font-size: 35px;
+    border-bottom: 3px solid black;
+    height: 84px;
+  }
+
+
+
+
+  .container{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    border-bottom: 3px solid black;
+            }
+    
+            h2{
+              text-align: center;
+              font-size: 35px; 
+            }
+    
+            .Events{
+              margin-top: 10px;
+              margin-bottom: 30px;
+              max-height: 500px;
+              max-width: 500px;
+            }
+    
+            .Eventstekst{
+              text-align: left;
+              margin-right: 15px;
+            }
+    
+            .Sport{
+              margin-top: 50px;
+              margin-bottom: 30px;
+              max-height: 500px;
+              max-width: 500px;
+          }
+    
+            .Sportstekst{
+    text-align: left;
+    margin-left: 15px;
+            }
+    
+    
+            .Venner{
+              margin-top: 50px;
+              margin-bottom: 30px;
+              max-height: 500px;
+              max-width: 500px;
+          }
+    
+          .Vennertekst{
+            text-align: left;
+            margin-right: 15px;
+          }
+
+
+          .Brondbyif{
+            margin-top: 50px;
+            margin-bottom: 80px;
+            max-height: 500px;
+            max-width: 500px;
+        }
+  
+          .Brondbyiftekst{
+  text-align: left;
+  margin-left: 15px;
+          }
+
+
+          .Rejser{
+            margin-top: 50px;
+            margin-bottom: 30px;
+            max-height: 500px;
+            max-width: 500px;
+        }
+  
+        .Rejsetekst{
+          text-align: left;
+          margin-right: 15px;
+        }
+
+
+/* Kontaktinformation og sociale medier i bunden af 'interesser' */
+
+        .sidebar
+        {
+     
+          width: 35%;
+          float: right;
+          height: 70px;
+          padding-left: 15px;
+          box-sizing: border-box;
+        }
+    
+        .content-area{
+     
+          width: 65%;   
+          float: left;
+          padding: right 15px;
+          height: 100%;
+          }
+
+
+
+
+/* Kontaktinformation page */
+
+.Mig{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  max-height: 500px;
+  max-width: 500px;
+}
+
+.Kontaktinformation{
+  width: 65%;   
+  float: left;
+ padding-right: 15%;
+  padding-left: 15%;
+  padding-top: 10%;
+}
+
+
+

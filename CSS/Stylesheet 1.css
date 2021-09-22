@@ -1,0 +1,171 @@
+<style>
+
+
+.frederikvinholt
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 500px;
+  max-width: 500px;
+}
+
+header
+{
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 10px;
+}
+
+h1{
+    text-align: center;
+     font-size: 55px; 
+     border-bottom: 3px solid black;
+     height: 84px;
+   }
+
+
+p
+{
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(112, 109, 109, 0.904);
+}
+
+li {
+  float: left;
+  border-right:1px solid rgb(255, 255, 255);
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 40px 40px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #3843e7;
+}
+
+   .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+
+section
+{
+  background-color: white;
+}
+
+
+
+
+
+        .container{
+display: flex;
+height: 50%;
+width: 100%;
+border-bottom: 3px solid black;
+        }
+
+        h2{
+          text-align: center;
+          font-size: 35px; 
+        }
+
+        .sofieogfrode{
+          margin-top: 10px;
+          margin-bottom: 30px;
+          max-height: 500px;
+          max-width: 500px;
+        }
+
+        .tekst{
+          text-align: left;
+          margin-right: 15px;
+        }
+
+        .migogabe{
+          margin-top: 50px;
+          margin-bottom: 30px;
+          max-height: 450px;
+          max-width: 500px;
+      }
+
+        .tekst2{
+text-align: left;
+margin-left: 15px;
+        }
+
+
+        .mig2{
+          margin-top: 50px;
+          margin-bottom: 30px;
+          max-height: 450px;
+          max-width: 500px;
+      }
+
+      .tekst3{
+        text-align: left;
+        margin-right: 15px;
+      }
+
+
+
+/* Sidebar og content area er links til sociale medier og kontaktinfo */
+
+
+        .sidebar
+        {
+     
+          width: 35%;
+          float: right;
+          height: 70px;
+          padding-left: 15px;
+          box-sizing: border-box;
+        }
+    
+        .content-area{
+     
+          width: 65%;   
+          float: left;
+          padding: right 15px;
+          height: 100%;
+          }
+    
+
+
+
+
+
+
+        @media (max-width: 600px) {/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+          section {
+                        -webkit-flex-direction: column;
+                        flex-direction: column;
+                        }
+                        }
+  </style>
