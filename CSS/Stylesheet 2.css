@@ -1,9 +1,16 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(112, 109, 109, 0.904);
+    background-color: rgb(15, 47, 146);
   }
   
   li {
@@ -27,6 +34,47 @@ ul {
     background-color: #111;
   }
 
+
+/* CV page */
+
+  .container2{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    border-bottom: 3px solid black;
+  }
+
+  .student{
+margin-left: 45%;
+  }
+
+  .Erfaringtekst{
+margin-top: 22%;
+  }
+
+  .CVtekst{
+    font-size: 16px;
+    margin-left: 30px;
+  }
+
+  .erfaringtekst2{
+    margin-top: 30px;
+  }
+  
+  .erfaringtekst3{
+    margin-top: 60px;
+    border-bottom: 3px solid black;
+  }
+
+  .Frivilligboks{
+    border-bottom: 3px solid black;
+  }
+
+  h3{
+    font-size: 25px;
+  }
+
+
 /* De 4 billeder ved siden af hinanden */
 
   .column {
@@ -42,19 +90,17 @@ ul {
 
 header
 {
-  font-size: 355px;
+  font-size: 255px;
   margin-top: 40px;
- 
 }
 
   h1{
-   margin-top: 40px;
+   margin-top: 5px;
     text-align: center;
-    font-size: 35px;
+    font-size: 55px;
     border-bottom: 3px solid black;
     height: 84px;
   }
-
 
 
 
@@ -169,8 +215,8 @@ header
 .Kontaktinformation{
   width: 65%;   
   float: left;
- padding-right: 15%;
-  padding-left: 15%;
+ padding-right: 10%;
+  padding-left: 10%;
   padding-top: 10%;
 }
 
